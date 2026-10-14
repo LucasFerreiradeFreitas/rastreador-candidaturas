@@ -7,7 +7,7 @@
 :root {
   --cor-fundo: #f5f6f8;
   --cor-texto: #1f2933;
-  --cor-ptimaria: #2563eb;
+  --cor-primaria: #2563eb;
   --fonte-base: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 }
 
@@ -114,20 +114,20 @@ body {
 }
 
 .button--primary {
-  background: var(--cor-primaria);
+  background: var(--cor-primaria, #2563eb);
   color: #fff;
 }
 
 .button--secondary {
   background: #fff;
-  color: var(--cor-texto);
+  color: var(--cor-texto, #1f2933);
   border-color: #9aa5b1;
 }
 
 .button--link {
   padding: 0;
   background: none;
-  color: var(--cor-primaria);
+  color: var(--cor-primaria, #2563eb);
   text-decoration: underline;
 }
 
